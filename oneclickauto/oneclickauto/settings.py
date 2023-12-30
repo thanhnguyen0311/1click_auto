@@ -18,8 +18,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '^k(x!uymgcrwt!^(br@31a47c+1mnl)mvtc2fq)fb)1gyp#+gv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -75,9 +73,9 @@ WSGI_APPLICATION = 'oneclickauto.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'social_automation',
-        'USER': 'nct031194',
-        'PASSWORD': '272337839',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': '125.212.243.130',
         'PORT': '3306',
     }
