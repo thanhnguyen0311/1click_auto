@@ -75,9 +75,9 @@ WSGI_APPLICATION = 'oneclickauto.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'social_automation',
-        'USER': 'nct031194',
-        'PASSWORD': '272337839',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': '125.212.243.130',
         'PORT': '3306',
     }
